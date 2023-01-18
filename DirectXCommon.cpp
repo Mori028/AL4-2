@@ -10,7 +10,7 @@
 #pragma comment(lib, "dxguid.lib")
 
 using namespace Microsoft::WRL;
-
+ 
 DirectXCommon* DirectXCommon::GetInstance() {
 	static DirectXCommon instance;
 	return &instance;
